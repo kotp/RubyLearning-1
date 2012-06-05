@@ -10,7 +10,7 @@ end
 puts "Please enter a temperature in fahrenheit you would like converted to celsius: "
 user_in = gets.chomp
 #Puts statement is used for rounding so that the actual method returns the temperature without loss of information
-puts "#{user_in} fahrenheit is #{(convert(user_in)*100).round/100.0} celsius.
+puts "%s Fahrenheit is %.2f Celsius." % [user_in, convert(user_in)]
 
 
 

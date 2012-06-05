@@ -1,4 +1,4 @@
-#excercise6.rb
+#Week1_Ex6.rb
 
 STDOUT.sync = true
 
